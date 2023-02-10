@@ -13,10 +13,27 @@ import work6 from "./assets/work6.png";
 export const navLinks = ["home", "about", "skills", "portfolio", "contact"]
 
 export const socialIcons = [
-  <FaInstagram />,
-  <FaLinkedin />,
-  <FaTwitter />,
-  <FaGithub/>,
+   
+   {
+      id:1,
+      icon:<FaInstagram />,
+      link:"https://www.instagram.com/bhushan_shrirame/"
+   },
+   {
+    id:2,
+    icon:<FaLinkedin />,
+    link:"https://www.linkedin.com/in/bhushan-shrirame/"
+   },
+   {
+    id:3,
+    icon:<FaTwitter />,
+    link:"https://twitter.com/Bhushanshriram2"
+   },
+   {
+    id:4,
+    icon:<FaGithub />,
+    link:"https://github.com/Bhushan-shrirame"
+   },
 ]
 
 export const bios = [
@@ -90,16 +107,16 @@ export const workImages = [
     img: work1,
     name: "project 1",
     category: "web",
-    link:"https://chat-gpt-clone-bhushan-shrirame.vercel.app/",
-    github:"https://github.com/Bhushan-shrirame/Chat-gpt-clone",
+    link:"https://github.com/Bhushan-shrirame/Stackoverflow-clone",
+    github:"https://github.com/Bhushan-shrirame/Stackoverflow-clone",
   },
   {
     id: 2,
     img: work2,
     name: "project 2",
     category: "web",
-    link:"https://chat-gpt-clone-bhushan-shrirame.vercel.app/",
-    github:"https://github.com/Bhushan-shrirame/Chat-gpt-clone",
+    link:"https://youtubeclone-bhushanshrirame.netlify.app/",
+    github:"https://github.com/Bhushan-shrirame/Youtube_Clone",
   },
   {
     id: 3,
@@ -114,54 +131,30 @@ export const workImages = [
     img: work4,
     name: "project 4",
     category: "app",
-    link:"https://chat-gpt-clone-bhushan-shrirame.vercel.app/",
-    github:"https://github.com/Bhushan-shrirame/Chat-gpt-clone",
+    link:"https://github.com/Bhushan-shrirame/ChatApplication",
+    github:"https://github.com/Bhushan-shrirame/ChatApplication",
   },
   {
     id: 5,
     img: work5,
     name: "project 5",
-    category: 'app',
-    link:"https://chat-gpt-clone-bhushan-shrirame.vercel.app/",
-    github:"https://github.com/Bhushan-shrirame/Chat-gpt-clone",
+    category: 'game',
+    link:"https://bhushan-shrirame.github.io/CodeCrossy-Road-with-three.js/",
+    github:"https://github.com/Bhushan-shrirame/CodeCrossy-Road-with-three.js",
   },
   {
     id: 6,
     img: work6,
     name: "project 6",
-    category: "app",
-    link:"https://chat-gpt-clone-bhushan-shrirame.vercel.app/",
-    github:"https://github.com/Bhushan-shrirame/Chat-gpt-clone",
+    category: "ML/AI",
+    link:"https://github.com/Bhushan-shrirame/brain_tumor_detection",
+    github:"https://github.com/Bhushan-shrirame/brain_tumor_detection",
   },
-  {
-    id: 7,
-    img: work6,
-    name: "project 6",
-    category: "app",
-    link:"https://chat-gpt-clone-bhushan-shrirame.vercel.app/",
-    github:"https://github.com/Bhushan-shrirame/Chat-gpt-clone",
-  },
-  {
-    id: 8,
-    img: work6,
-    name: "project 6",
-    category: "app",
-    link:"https://chat-gpt-clone-bhushan-shrirame.vercel.app/",
-    github:"https://github.com/Bhushan-shrirame/Chat-gpt-clone",
-  },
-  {
-    id: 9,
-    img: work6,
-    name: "project 6",
-    category: "app",
-    link:"https://chat-gpt-clone-bhushan-shrirame.vercel.app/",
-    github:"https://github.com/Bhushan-shrirame/Chat-gpt-clone",
-  }
 ]
 
 
 export const workNavs = [
-  "All", "Web", "App", "Game"
+  "All", "Web", "App", "Game","ML/AI"
 ]
 
 export const contacts = [

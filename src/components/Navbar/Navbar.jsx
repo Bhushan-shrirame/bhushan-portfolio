@@ -7,8 +7,7 @@ import { socialIcons } from '../../Data';
 const Navbar = () => {
     
     const [scroll, setScroll] = useState(false);
-    const [toggle, setToggle] = useState(false)
-    
+    const [toggle, setToggle] = useState(false)    
     const menuVariants = {
         hidden: {
             scale: 0
@@ -59,9 +58,9 @@ const Navbar = () => {
               <div className="social_icons" >
                   {socialIcons.map((socialIcon, index) => {
                   return (
-                      <div key={index}>
-                          {socialIcon}
-                      </div>
+                      <div key={index} onClick={() => window.location.href = socialIcon.link}>
+                          {socialIcon.icon}
+                      </div>        
                   )
               })}
               </div>
