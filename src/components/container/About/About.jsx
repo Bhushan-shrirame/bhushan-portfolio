@@ -44,7 +44,7 @@ const About = () => {
               </div>
             )
           })}
-          <motion.a href='https://drive.google.com/file/d/1QGyS1OVN9ZIxElpkPqsQM7P8zmAJh3es/view?usp=sharing' 
+          <motion.a href='https://drive.google.com/file/d/1M1wDXGG9iXDz7nGJOeY8lwJNDMk36MNd/view?usp=sharing' 
             whileHover={{ scale: 1.1 }}
             transition={{ duration: 0.3 }}
           >
